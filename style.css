@@ -1,0 +1,142 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 2px;
+}
+.small-logo {
+  height: 15px;
+}
+.logo-size {
+  width: 85px;
+  height: 25px;
+}
+header {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-size: large;
+}
+p {
+  font-size: medium;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+svg {
+  fill: #b1b1c0;
+  width: 30px;
+}
+footer input {
+  border: solid #1b3452 2px;
+}
+footer ul {
+  padding: 25px;
+}
+.grey {
+    color: darkgrey;
+}
+::placeholder {
+  font-style: italic;
+  font-family: 'Times New Roman';
+  }
+.uppercase {
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: 800;
+}
+button {
+  padding: 10px;
+  border: none;
+  background-color: #1b3452;
+  color: white;
+  text-transform: uppercase;
+}
+.padding5 {
+  padding: 5px;
+}
+/* Flexbox */
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.space-bet {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.centered {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/* Toggle */
+aside {
+  display: none;
+  height: 80vh;
+  position: fixed;
+  width: 97vw;
+  top: 0vh;
+}
+aside svg {
+  fill: white;
+  height: 15px;
+}
+aside hr {
+  width: 90%;
+  margin: auto;
+}
+aside input {
+  border: none;
+  margin: 10px;
+  width: 90%;
+  background-image: url("img/search.svg");
+  background-repeat: no-repeat;
+  background-color: #272742;
+}
+.visible {
+  display: block;
+  background-color: #1b3452;
+  color: white;
+}
+.visible p {
+  font-weight: 800;
+  padding: 4px;
+  padding-top: 10px;
+}
+.visible li {
+  font-size: smaller;
+  padding-top: 10px;
+}
+.visible a {
+  color: #9495a3;
+}
+.visible a:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
